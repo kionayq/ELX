@@ -44,8 +44,8 @@ function make_base() {
         context.drawImage(base_image, 0, 0, canvas.width, canvas.height);
         context.font = 'bold 40px Tajawal';
         context.textAlign = 'center';
-        context.fillStyle = "#123251";
-        context.fillText(" " + textInput, 540, 934);
+        context.fillStyle = "#7d7d7d";
+        context.fillText(" " + textInput, 540, 1100);
 
         document.getElementById("theimage").src = canvas.toDataURL();
 
