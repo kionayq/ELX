@@ -1,16 +1,16 @@
 @font-face {
     font-family: "DINNextLTW23-Bold";
-    src: url(../fonts/DINNextLTW23-Bold.ttf);
+    src: url(assets/fonts/DINNextLTW23-Bold.ttf);
   }
   
   @font-face {
     font-family: "DINNextLTW23-Medium";
-    src: url(../fonts/DINNextLTW23-Medium.ttf);
+    src: url(assets/fonts/DINNextLTW23-Medium.ttf);
   }
   
   @font-face {
     font-family: "DINNextLTW23-Regular";
-    src: url(assets/fonts/DINNextLTW23-Regular);
+    src: url(assets/fonts/DINNextLTW23-Regular.ttf);
   }
 
 
