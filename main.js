@@ -45,7 +45,7 @@ function make_base() {
         context.font = 'bold 36px DINNextLTW23-Regular';
         context.textAlign = 'right';
         context.fillStyle = "#c2185b";
-        context.fillText(" " + textInput, 430, 1040);
+        context.fillText(" " + textInput, 430, 1140);
 
         document.getElementById("theimage").src = canvas.toDataURL();
 
