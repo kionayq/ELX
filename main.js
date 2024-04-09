@@ -1,7 +1,7 @@
 var canvas = document.getElementById("viewport");
 context = canvas.getContext("2d");
 base_image = new Image();
-base_image.src = "base.png";
+base_image.src = "base.jpg";
 function make_base() {
   let nameI = document.getElementById("tt").value;
   if (nameI.length < 3 || nameI === undefined) {
