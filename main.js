@@ -36,9 +36,9 @@ function make_base() {
     context.clearRect(0, 0, canvas.width, canvas.height);
     context.drawImage(base_image, 0, 0, canvas.width, canvas.height);
     context.font = "bold 36px DINNextLTW23-Regular";
-    context.textAlign = "right";
+    context.textAlign = "center";
     context.fillStyle = "#c2185b";
-    context.fillText(" " + textInput, 430, 1240);
+    context.fillText(" " + textInput, 550, 1000);
 
     document.getElementById("theimage").src = canvas.toDataURL();
   }
