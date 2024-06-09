@@ -36,10 +36,9 @@ function make_base() {
     context.clearRect(0, 0, canvas.width, canvas.height);
     context.drawImage(base_image, 0, 0, canvas.width, canvas.height);
     context.font = "bold 40px DINNextLTW23-Regular";
-    context.textAlign = "center";
-    context.fillStyle = "#795a2a";
-    context.fillText(" " + textInput, 550, 1000);
-
+    context.textAlign = "left";
+    context.fillStyle = "#fff";
+    context.fillText(" " + textInput, 56, 1100);
     document.getElementById("theimage").src = canvas.toDataURL();
   }
 }
