@@ -38,7 +38,7 @@ function make_base() {
     context.font = "bold 40px DINNextLTW23-Regular";
     context.textAlign = "left";
     context.fillStyle = "#fff";
-    context.fillText(" " + textInput, 56, 1100);
+    context.fillText(" " + textInput, 56, 1150);
     document.getElementById("theimage").src = canvas.toDataURL();
   }
 }
